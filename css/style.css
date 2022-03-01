@@ -1,0 +1,917 @@
+body{
+	font-family: Tahoma;
+	font-size: 12px;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+*{							/* Reset trình duyệt */
+	margin: 0px;
+	padding: 0px;
+}
+/*banner*/
+#banner{
+	min-height: 150px;
+	background-color: red;
+}
+
+
+/*tim kiem*/
+#detail-search{
+	width: 950px;
+	height: 100px;
+	background-color: #FFBA47;
+	margin-top: 15px;
+	opacity: 0.9;
+    margin-left: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	
+}
+
+#detail-search #info-search{
+	width: 800px;
+	margin-left: 50px;
+	
+	min-height: 40px;
+	float: left;
+	
+}
+
+input{
+	border-radius: 2px;
+	border-style: inherit; 
+	text-align: center;
+}
+
+#detail-search #info-search #info-search1{
+	
+	min-height: 40px;
+	float: left;
+	
+} 
+#detail-search #info-search #info-search2{
+	
+	min-height: 40px;
+	float: left;
+	margin-left: 30px;
+} 
+#detail-search #info-search #info-search3{
+	
+	min-height: 40px;
+	float: left;
+	margin-left: 30px;
+} 
+#detail-search #info-search #btnSearch{
+	width: 110px;
+	min-height: 30px;
+	float: left;
+	background-color: #FFBA47;
+	margin-left: 30px;
+
+}
+#detail-search #info-search #btnSearch button{
+	width: 110px;
+	min-height: 35px;
+	background-color: #FFF443;
+	border-style: inherit;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.body-content{
+	margin-top: 10px;
+	width: 1000px;
+	height: 700px;
+	
+}
+.body-content #post{
+	min-height: 700px;
+	width: 700px;
+	margin-bottom: 70px;
+	float: left;
+
+	
+}
+
+.body-content #post #content-post{
+	border: 1px solid #4CAF50;
+	min-height: 1010px;
+	/*max-height: 1010px;*/
+	
+}
+
+.body-content #post #lastest-post{
+	background-color: #4CAF50;
+	height: 40px;
+	color: #FFF;
+	padding-left: 15px;
+	line-height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+	
+}
+
+.body-content #ads{
+	width: 260px;
+	min-height: 700px;
+	/*border: 1px solid #fac200;*/
+	margin-left: 30px;
+	float: left;
+}
+
+
+/*ads-right*/
+#ads #extention{
+	width: auto;
+	height: auto;
+	
+}
+
+#ads #extention #extention-header{
+	background-color: #4CAF50;
+	height: 40px;
+	color: #FFF;
+	padding-left: 5px;
+	line-height: 40px;
+	/*border-radius: 4px;*/
+	text-align: center;
+}
+
+#ads #extention #list-extention{
+	border: 1px solid #4CAF50;
+	height: auto;
+}
+
+#ads #extention #list-extention ul li{
+	list-style: none;
+
+}
+
+
+#ads #extention #list-extention ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 32px;
+	border-bottom: 1px solid #4CAF50;
+	
+	text-indent: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*padding-top: 10px;*/
+	margin-bottom: 0px;
+	color: black;
+
+}
+
+#ads #extention #list-extention ul li a:hover{
+	color: #4CAF50;
+}
+
+#ads #ads-content img{
+	margin-top: 10px;
+
+}
+#ads #ads-fb img{
+	margin-top: 10px;
+}
+
+
+.slideshow-container-ads {
+  max-width: 300px;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 250px;
+}
+
+
+#content-post #detail-post{
+
+}
+#content-post #detail-post ul{
+	margin: 0px;
+	padding: 0px;
+}
+#content-post #detail-post ul li{
+	width: 700px;
+	height: 160px;
+	list-style: none;
+	clear: left;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #4CAF50;
+	float: left;
+}
+#content-post #detail-post ul li img{
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+#content-post #detail-post ul li h3{
+	padding-right: 5px;
+	padding-top: 10px;
+}
+
+#content-post{
+	/*margin-top: 10px;*/
+
+}
+#content-post #detail-postt ul li h2{
+	margin-top: 0px;
+}
+/*ket thuc bai dang*/
+
+#footer{
+    color: #000000;
+    text-align: center;
+    background-color: #45a049;
+    min-height: 27px;
+    line-height: 27px;
+    clear: both;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+
+
+
+/*Menu đa cấp*/
+
+#menu{
+	width: 1000px;
+    height: 40px;
+    background-color: #4CAF50;
+    margin: 5px auto;
+}
+
+#menu ul{
+	list-style-type: none;
+	background-color: #4CAF50;
+	text-align: center;
+
+
+}
+
+#menu ul li{
+	color: #FFFF;
+	float: left;
+	display: inline-table;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	z-index: 1;
+
+}
+
+#menu ul li a{
+
+	color: #FFFF;
+	text-decoration: none;
+	display: block;
+
+
+}
+
+#menu ul li a:hover{
+	background-color: #5995fd;
+	
+
+}
+
+#menu ul li > .sub-menu{
+	display: none;
+	position: absolute;
+	text-align: left;
+	width: 170px;
+	text-indent: 5px;
+
+
+}
+
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+/*ket thuc menu da cap*/
+
+
+
+/*login-form*/
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 80px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;	
+  position: fixed;
+  bottom: 0;
+  /*right: 570px;*/
+ top: 50px;
+  z-index: 19;
+
+  left: calc(39% - 50px)
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 350px;
+  padding: 10px;
+  background-color: black;
+
+
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 2px;
+  margin-left: 90px;
+  margin-bottom:10px;
+
+
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+
+}
+
+/*end login form*/
+
+
+
+/*register form*/
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-buttonReg {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 150px;
+}
+
+/* The popup form - hidden by default */
+.form-popupReg {
+  display: none;	
+  position: fixed;
+  bottom: 0;
+  /*right: 570px;*/
+ top: 50px;
+  z-index: 20;
+
+  left: calc(60% - 50px)
+}
+
+/* Add styles to the form container */
+.form-containerReg {
+  max-width: 500px;
+  padding: 0px;
+  background-color: rgba(22,22,22,0.9);
+}
+
+/* Full-width input fields */
+.form-containerReg input[type=text], .form-containerReg input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  border: none;
+  background: white;
+}
+
+/* When the inputs get focus, do something */
+.form-containerReg input[type=text]:focus, .form-containerReg input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-containerReg .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+
+}
+
+/* Add a red background color to the cancel button */
+.form-containerReg .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-containerReg .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/*end register form*/
+
+/*phan trang*/
+
+.pagination{
+	float: right;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  font-size: 14px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+/*ktphan trang*/
+
+
+
+/*tin phối giống*/
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  height: 150px;
+}
+
+.slideshow-container #tin-phoi-giong{
+	max-width: 700px;
+	min-height: 170px;
+	border: 1px solid #4CAF50;
+	padding: 10px 10px 10px 10px;
+
+	
+}
+
+.slideshow-container #detail{
+	background-color: #4CAF50;
+	height: 40px;
+	color: #FFF;
+	padding-left: 10px;
+	line-height: 40px;
+	margin-top: -70px;
+
+
+}
+
+.slideshow-container #tin-phoi-giong #anh{
+
+
+	float: left;
+}
+
+.slideshow-container #tin-phoi-giong #anh img{
+	width: 150px;
+	height: 150px;
+}
+.slideshow-container #tin-phoi-giong #chi-tiet{
+	width: 450px;
+	min-height: 100px;
+	padding-left: 15px;
+	float: left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px 0px 340px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0s;
+  animation-name: fade;
+  animation-duration: 0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*tin phối giống*/
+
+
+/*
+.body-content{
+	margin-top: 30px;
+	width: 1000px;
+	height: 700px;
+	
+}
+.body-content #post{
+	min-height: 700px;
+	width: 700px;
+	margin-bottom: 70px;
+	float: left;
+
+	
+}
+
+.body-content #post #content-post{
+	border: 1px solid #fac200;
+	min-height: 1010px;
+
+}*/
+
+/*chi tiet bai viet*/
+#chitietpost{
+	margin-top: 10px;
+	/*max-width: 500px;*/
+	height: auto;
+}
+#chitietpost #left{
+	width: 707px;
+	height: auto;
+	
+	float: left;
+}
+
+#chitietpost #ads{
+	width: 260px;
+	min-height: 700px;
+	/*border: 1px solid #fac200;*/
+	margin-left: 30px;
+	float: left;
+}
+#chitietpost #time-upload p{
+	color:rgb(204, 204, 204);
+}
+#chitietpost #time-upload{
+	padding-left: 4px;
+	 padding-right: 4px;
+}
+#chitietpost #info p{
+	font-size: 13px;
+    margin-bottom: 7px;
+}
+#detail-post p{
+	font-size: 13px;
+    margin-bottom: 5px;
+}
+#chi-tiet p{
+	font-size: 13px;
+    margin-bottom: 5px;
+}
+#chitietpost #listImage{
+	margin-top: 10px;
+	display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 170px;
+}
+
+#chitietpost #listImage #box{
+	/*margin-bottom: 20px;*/
+	margin-top: 10px;
+    display: block;
+}
+
+h6{
+	font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 4px 16px;
+    background: rgb(250, 194, 0);
+    float: left;
+    margin: 0px;
+}
+
+#chitietpost #listImage #dsanh{
+	width: auto;
+	height: 580px;
+	
+	border-width: 1px;
+    border-style: solid;
+    border-color: rgb(250, 194, 0);
+    border-image: initial;
+}
+
+#chitietpost #listImage #related-pet{
+	width: 1110px;
+	height: 300px;
+	
+	margin-top: 30px;
+}
+/*chi tiet bai viet*/
+
+/*gio hang*/
+#chitietpost #giohang{
+	width: auto;
+	height: 40px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+#chitietpost #giohang #gia{
+	color: #c90927;
+	float: left;
+	padding-top: 10px;
+	font-size: 24px;
+	padding-left: 50px;
+}
+
+#chitietpost #giohang #card{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-right: 60px;
+
+}
+
+#chitietpost #giohang #card button {
+ 	
+	  outline: 0;
+	  padding: 8px;
+	  color: white;
+ 	/*border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: #45a049);
+ 
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+/*  font-size: 18px;*/
+   background: #45a049;
+}
+
+#chitietpost #giohang #card button:hover {
+  opacity: 0.7;
+ 
+}
+#quantity input{
+	border-width: 2px;
+    border-style: solid;
+    border-color: #45a049;
+	width: 60px;
+	height: 30px;
+	
+}
+#quantity{
+	margin-top: 4px;
+	float: left;
+	margin-left: 220px;
+
+}
+/*gio hang*/
+#content-wrapper #card a{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+
+
+/*chi tiet san pham*/
+
+
+#content-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	margin-left: 30px;
+	align-items: center;
+}
+
+#content-wrapper .column{
+	width: 600px;
+	padding: 10px;
+
+}
+
+#content-wrapper #featured{
+	max-width: 600px;
+	max-height: 700px;
+	min-width: 400px;
+	min-height:300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	object-fit: cover;
+	cursor: pointer;
+	/*border: 1px solid #45a049;*/
+
+}
+/*#featured img{
+	max-width: 600px;
+	max-height: 700px;
+}*/
+
+#content-wrapper .thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 1px white;
+
+}
+
+#content-wrapper .thumbnail:hover{
+	opacity:1;
+	border: 3px solid #45a049;
+}
+
+#content-wrapper .active{
+	opacity: 1;
+	/*border: 3px solid orange;*/
+}
+
+#slide-wrapper{
+	width: 500px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+	margin-left: 50px;
+}
+
+#content-wrapper #slider{
+	width: 600px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+	margin-left: 40px;
+}
+
+#content-wrapper #slider::-webkit-scrollbar-thumb:hover{
+    /*background-color: #18b5ce;*/
+  /*  border-color: green;*/
+}
+
+#content-wrapper .arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	margin-right: 5px;
+	transition: .3s;
+	
+}
+
+#content-wrapper .arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+  	
+#myForm input{
+	width: 250px;
+	margin-bottom: 10px;
+	float: right;
+	margin-right: 5px;
+}
+#myForm label{
+	width: 70px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+#name.btn:hover {
+  border: 1px solid black;
+}
+

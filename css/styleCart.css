@@ -1,0 +1,505 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 26, 2020, 9:05:12 AM
+    Author     : Thu
+*/
+
+body{
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 1000px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+*{                          /* Reset trình duyệt */
+    margin: 0px;
+    padding: 0px;
+}
+/*banner*/
+#banner{
+    min-height: 150px;
+    background-color: red;
+}
+
+
+/*tim kiem*/
+#detail-search{
+    width: 900px;
+    height: 100px;
+    background-color: #6dd622;
+    margin-left: 50px;
+    margin-top: 20px;
+    opacity: 0.9;
+    
+}
+
+#detail-search #info-search{
+    width: 800px;
+    margin-left: 50px;
+    
+    min-height: 40px;
+    float: left;
+    
+}
+#btn{
+    width:70px;
+    height: 30px;
+    /*border-radius: 4px;*/
+    background-color: rgb(250, 194, 0);
+    border-style: inherit;
+    margin-bottom: 10px;
+}
+input{
+    border-radius: 2px;
+    border-style: inherit; 
+    text-align: center;
+    border: 1px solid #ccc; 
+    width: 150px;
+   
+}
+
+#detail-search #info-search #info-search1{
+    
+    min-height: 40px;
+    float: left;
+    
+} 
+#detail-search #info-search #info-search2{
+    
+    min-height: 40px;
+    float: left;
+    margin-left: 25px;
+} 
+#detail-search #info-search #info-search3{
+    
+    min-height: 40px;
+    float: left;
+    margin-left: 25px;
+} 
+#detail-search #info-search #btnSearch{
+    width: 110px;
+    min-height: 30px;
+    float: left;
+    background-color: #4182C3;
+    margin-left: 25px;
+}
+#detail-search #info-search #btnSearch button{
+    width: 110px;
+    min-height: 35px;
+    background-color: #F3C110;
+    border-style: inherit;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    /*border: 1px solid orange;*/
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+}
+.product-items{
+    border: 1px solid #000;
+    padding: 30px;
+}
+.product-item{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    line-height: 26px;
+}
+.product-item label{
+    font-weight: bold;
+}
+.product-item p{
+    margin: 0;
+    line-height: 26px;
+    max-height: 52px;
+    overflow: hidden;
+}
+.product-price{
+    color: black;
+    font-weight: bold;
+}
+.product-img{
+    padding: 2px;
+    width: 100px;
+    height: 50px;
+
+    /*margin-bottom: 5px;*/
+}
+.product-item img{
+    max-width: 100%;
+}
+.product-item ul{
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #000;
+}
+.product-item ul li{
+    float: left;
+    width: 33.3333%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #000;
+    border-right: 0;
+    box-sizing: border-box;
+}
+.clear-both{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.buy-button{
+    text-align: right;
+    margin-top: 10px;
+}
+.buy-button a{
+    background: #444;
+    padding: 5px;
+    color: #fff;
+}
+#pagination{
+    text-align: right;
+    margin-top: 15px;
+}
+.page-item{
+    border: 1px solid #000;
+    padding: 5px 9px;
+    color: #000;
+}
+.current-page{
+    background: #000;
+    color: #FFF;
+}
+#product-detail{
+    border-top: 1px solid #000;
+    padding: 15px 0 0 0;
+}
+#product-img{
+    width: 30%;
+    float: left;
+}
+#product-info{
+    float: right;
+    width: 70%;
+    text-align: left;
+    padding-left: 30px;
+}
+#product-img img{
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #eee;
+}
+h1{
+    text-align: left;
+    margin-top: 0;
+}
+label.add-to-cart{
+    background: #000;
+    border: 1px solid #000;
+    margin-top: 15px;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}
+label a{
+    color: #FFF;
+}
+#gallery{
+    margin-top: 10px;
+}
+#gallery ul{
+    margin: 0;
+    padding: 0;
+}
+#gallery ul li{
+    width: 150px;
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #eee;
+}
+#gallery ul li img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+table{
+    border-collapse: collapse;
+    width: 950px;
+
+}
+table, th, td {
+    border: 0px solid #ccc;
+   /* border-bottom: 1px solid #ccc;*/
+}
+table .product-img img{
+    max-width: 100px;
+
+}
+table .product-name{
+    width: 80px;
+    text-align: center;
+    font-size: 13px;
+}
+table .product-kind{
+    width: 50px;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 40px;
+}
+table .product-img{
+    width: 100px;
+    text-align: center;
+    border: none;
+}
+table .product-number{
+    width: 50px;
+    text-align: center;
+}
+table .product-price{
+    width: 50px;
+    text-align: center;
+}
+th{
+    /*background-color: #e0dede;*/
+    padding: 8px;
+    color: orange;
+}
+h6{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 4px 16px;
+    background: rgb(250, 194, 0);
+    float: left;
+    margin: 0px;
+}
+
+#box h6{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 4px 16px;
+    background: rgb(250, 194, 0);
+    margin-left: 200px;
+    
+}
+tr{
+    
+}
+table .product-quantity input{
+    width: 40px;
+    text-align: center;
+}
+table .product-quantity{
+    width: 60px;
+    text-align: center;
+}
+table .total-money{
+    width: 100px;
+    text-align: center;
+}
+.tong-money{
+    width: 100px;
+    text-align: center;
+    color: green;
+    font-style: bold;
+}
+#form-button{
+    text-align: right;
+    margin-top: 15px;
+    width: 950px;
+
+}
+#thong-tin-nguoi-mua{
+    width: 600px;
+    height: auto;
+    border: 1px solid orange;
+    margin-top: 23px;
+    margin-left: 200px;
+
+}
+#thong-tin-nguoi-mua div{
+    padding: 10px 10px 0px 10px;
+}
+.product-delete{
+    width: 50px;
+    text-align: center;
+}
+#cart-form label{
+    width: 100px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#cart-form textarea{
+    margin-top: 15px;
+
+}
+a{
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+#cart-form input{
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #28231f;
+}
+#cart-form button{
+    border-radius: 2px;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #28231f;
+}
+input[name="order_click"]{
+    margin-top: 15px;
+}
+#row-total{
+    background: #eee;
+    color: #000;
+}
+
+#add-to-cart-form input[type='text']{
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+#add-to-cart-form input[type='submit']{
+    background: #000;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}
+/*Menu đa cấp*/
+
+#menu{
+    width: 1000px;
+    height: 40px;
+    background-color: #45a049;
+    margin: 5px auto;
+}
+
+#menu ul{
+    list-style-type: none;
+    background-color: #45a049;
+    text-align: center;
+
+
+}
+
+#menu ul li{
+    color: #FFFF;
+    float: left;
+    display: inline-table;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#menu ul li a{
+
+    color: #FFFF;
+    text-decoration: none;
+    display: block;
+
+
+}
+
+#menu ul li a:hover{
+    background-color: #2aedcf;
+    
+
+}
+
+#menu ul li > .sub-menu{
+    display: none;
+    position: absolute;
+    text-align: left;
+    width: 170px;
+    text-indent: 5px;
+
+
+}
+
+#menu ul li:hover .sub-menu{
+    display: block;
+}
+/*ket thuc menu da cap*/
+
+
+
+/*login-form*/
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 80px;
+}
+.tong {
+    text-align: right;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding: 14px;
+}
+
+#tongtien{
+    float: right;
+    margin-bottom: 100px;
+    padding-right: 60px;
+    font-size: 14px;
+    color: red;
+  
+}
+
+
+#footer{
+    color: black;
+    text-align: center;
+    background-color: #45a049;
+    /*margin-top: 660px;*/
+    min-height: 27px;
+    line-height: 27px;
+    clear: both;
+    opacity: 0.7;
+    border-radius: 4px;
+
+}
